@@ -14,7 +14,7 @@ module.exports = {
   ],
   steam: {
     apiKey: '1234567890ABCDE', // https://steamcommunity.com/dev/apikey
-    path: 'path-to-main-steam-folder',
+    path: 'path-to-where-store-mods',
     username: 'steam_username',
     password: 'steam_password',
   },
