@@ -8,7 +8,12 @@
     </div>
   <% } else { %>
     <div class="btn-group pull-right" role="group">
-      <% if (needsUpdate) { %>
+      <% if (!installed) { %>
+        <a class="btn btn-primary btn-xs install ladda-button" data-style="expand-left">
+          <span class="glyphicon glyphicon-save"></span>
+          Install
+        </a>
+      <% } else if (needsUpdate) { %>
         <a class="btn btn-primary btn-xs install ladda-button" data-style="expand-left">
           <span class="glyphicon glyphicon-save"></span>
           Update

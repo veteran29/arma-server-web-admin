@@ -12,6 +12,7 @@ define(function (require) {
       downloading: false,
       name: '',
       path: '',
+      installed: false,
     },
     idAttribute: 'id',
     urlRoot: '/api/mods/',
